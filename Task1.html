@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Flipkart</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #ffffff);
+      color: #2c3e50;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #1a237e;
+    }
+
+    p {
+      font-size: 1.1em;
+      max-width: 800px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+
+    img {
+      width: 180px;
+      margin: 30px 0;
+    }
+
+    a {
+      color: #1565c0;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin: 10px 0;
+    }
+
+    button {
+      padding: 12px 28px;
+      background-color: #1976d2;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 15px;
+    }
+
+    button:hover {
+      background-color: #0d47a1;
+    }
+
+    footer {
+      background-color: #1565c0;
+      color: white;
+      padding: 20px;
+      margin-top: 60px;
+      font-size: 1em;
+      border-top: 4px solid #0d47a1;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+      p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to Flipkart</h1>
+  <p>Flipkart is one of India's leading e-commerce platforms, founded in 2007 by Sachin Bansal and Binny Bansal. Originally started as an online bookstore, Flipkart quickly expanded its product range to include electronics, fashion, home essentials, and more.</p>
+  <img src="https://deep-image.ai/blog/content/images/2023/01/Flipkart-logo.png" alt="Flipkart-logo">
+  <br>
+  <a href="https://www.flipkart.com" target="_blank">Visit Flipkart Official Website</a>
+  <br>
+  <button onclick="showAlert()">Click Me</button>
+
+  <footer>
+    Thank you for visiting!
+  </footer>
+
+  <script>
+    function showAlert() {
+      alert("You clicked the button!");
+    }
+  </script>
+
+</body>
+</html>
